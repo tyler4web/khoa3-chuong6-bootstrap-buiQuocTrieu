@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  background-color: white;
+  letter-spacing: 1px;
+}
+
+:root {
+  --primary-color: #f97c69;
+  --secondary-color: #7f67f8;
+  --header-color: #363d41;
+  --white-text: white;
+  --gray-text: #777777;
+  --black-text: black;
+}
+
+/* HEADER */
+header {
+  background-color: var(--header-color);
+  color: var(--white-text);
+}
+
+/* NAVBAR */
+.navbar-brand--config {
+  color: var(--gray-text);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+.navbar-brand--config span {
+  color: var(--secondary-color);
+  font-size: 40px;
+}
+
+.navbar-button--config {
+  border: 1px solid var(--gray-text);
+}
+
+.navbar--config {
+  /* border: 1px solid red; */
+  text-align: right;
+
+  justify-content: flex-end;
+  text-transform: uppercase;
+}
+
+.navbar--config a {
+  color: var(--black-text);
+  font-weight: 600;
+}
+
+.navbar--config .active a {
+  color: var(--secondary-color);
+}
+.navbar--config a:hover {
+  color: var(--secondary-color);
+}
