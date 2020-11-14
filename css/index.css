@@ -29,6 +29,19 @@ body {
   --black-text: black;
 }
 
+button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: var(--white-text);
+  font-weight: 500;
+}
+
+button.button--active {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+
 /* HEADER */
 header {
   background-color: var(--header-color);
@@ -71,4 +84,46 @@ header {
 }
 .navbar--config a:hover {
   color: var(--secondary-color);
+}
+
+/* CAROUSEL */
+#carousel {
+  height: 700px;
+  background-image: url("../img/b1.jpg");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  padding: 4rem 15px;
+  margin-bottom: 70px;
+  color: var(--white-text);
+  text-align: center;
+  background-position: center top;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  position: relative;
+}
+.owl-carousel .owl-stage-outer {
+  top: 17%;
+}
+.owl-theme .owl-dots {
+  bottom: 10%;
+  position: absolute;
+
+  left: 45%;
+}
+
+.carousel--content h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: 15px;
+  padding-bottom: 15px;
+}
+
+.carousel--content p {
+  padding-bottom: 15px;
+}
+
+.carousel--content button {
 }
