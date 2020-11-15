@@ -286,6 +286,10 @@ header {
   color: white;
 }
 
+.services--square--white {
+  background-color: white;
+}
+
 /* MEDIA QUERY */
 @media only screen and (max-width: 768px) {
   .get--content--border {
