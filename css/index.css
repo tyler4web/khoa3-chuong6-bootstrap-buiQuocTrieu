@@ -49,7 +49,7 @@ p {
 }
 
 h2 {
-  font-size: 2.6em;
+  font-size: 3em;
   padding-bottom: 20px;
   letter-spacing: 0px;
 }
@@ -235,6 +235,58 @@ header {
   padding-bottom: 10px;
 }
 
+/* OUR MAIN SERVICES */
+
+#services {
+  background-image: url(../img/3.jpg);
+
+  background-position: top;
+}
+.services--box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 260px;
+}
+
+.services--box h2 {
+  color: var(--white-text);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.services--box p {
+  color: var(--white-text);
+}
+
+.services--square {
+  text-align: center;
+  background-color: var(--white-text);
+}
+
+.services--square i {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+  padding-bottom: 20px;
+}
+
+.services--square h3 {
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+
+.services--square--content {
+  background-color: var(--primary-color);
+}
+
+.services--square--content > *,
+.services--square--content i {
+  color: white;
+}
+
+/* MEDIA QUERY */
 @media only screen and (max-width: 768px) {
   .get--content--border {
     border-right: none;
