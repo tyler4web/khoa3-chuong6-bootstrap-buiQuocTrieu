@@ -1,4 +1,19 @@
-$(".owl-carousel").owlCarousel({
+$(".nav--carousel").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true,
+  // responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});
+
+$(".owl-carousel-opinion").owlCarousel({
   loop: true,
   margin: 10,
   nav: false,
@@ -9,6 +24,12 @@ $(".owl-carousel").owlCarousel({
   responsive: {
     0: {
       items: 1,
+    },
+    600: {
+      items: 3,
+    },
+    1000: {
+      items: 3,
     },
   },
 });

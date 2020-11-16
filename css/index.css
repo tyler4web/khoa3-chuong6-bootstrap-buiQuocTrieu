@@ -290,6 +290,27 @@ header {
   background-color: white;
 }
 
+/* OPINION  */
+.owl-carousel-opinion {
+  text-align: center;
+}
+.owl-carousel-opinion img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid var(--secondary-color);
+  margin: 0 auto 20px auto;
+}
+
+.owl-carousel .owl-item img {
+  /* display: block; */
+  width: auto;
+}
+
+.opinion--title {
+  text-align: center;
+  padding-bottom: 70px;
+}
 /* MEDIA QUERY */
 @media only screen and (max-width: 768px) {
   .get--content--border {
