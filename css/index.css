@@ -63,6 +63,14 @@ header {
   color: var(--white-text);
 }
 
+.header__contact {
+  padding: 10px 0;
+}
+
+.header__contact i {
+  padding: 0 10px;
+}
+
 /* NAVBAR */
 .navbar-brand--config {
   color: var(--gray-text);
@@ -118,13 +126,13 @@ header {
   justify-content: center; */
   position: relative;
 }
-.owl-carousel .owl-stage-outer {
+#carousel .owl-carousel .owl-stage-outer {
   top: 25%;
 }
-.owl-carousel {
+#carousel .owl-carousel {
   height: 100%;
 }
-.owl-theme .owl-dots {
+#carousel .owl-theme .owl-dots {
   bottom: 0;
   position: absolute;
 
@@ -146,13 +154,12 @@ header {
   font-weight: 600;
   letter-spacing: 15px;
   padding-bottom: 15px;
+  line-height: 1.5em;
 }
 
 .carousel--content p {
-  padding-bottom: 15px;
-}
-
-.carousel--content button {
+  padding-bottom: 30px;
+  color: var(--white-text);
 }
 
 .carousel--overlay {
@@ -165,7 +172,9 @@ header {
 }
 
 /* WHAT YOU GET SECTION */
-
+#get {
+  margin-bottom: 70px;
+}
 .get--title {
   border-bottom: 1px solid black;
   width: 70%;
@@ -178,6 +187,7 @@ header {
 
 .get--content {
   text-align: center;
+  margin-bottom: 70px;
 }
 
 .get--content i {
@@ -220,6 +230,10 @@ header {
 }
 
 /* STATS */
+
+#stats {
+  margin-bottom: 70px;
+}
 .stats--title {
   text-align: center;
   padding-bottom: 80px;
@@ -241,6 +255,8 @@ header {
   background-image: url(../img/3.jpg);
 
   background-position: top;
+  padding-bottom: 50px;
+  margin-bottom: 70px;
 }
 .services--box {
   text-align: center;
@@ -291,6 +307,9 @@ header {
 }
 
 /* OPINION  */
+#opinion {
+  margin-bottom: 70px;
+}
 .owl-carousel-opinion {
   text-align: center;
 }
@@ -310,6 +329,10 @@ header {
 .opinion--title {
   text-align: center;
   padding-bottom: 70px;
+}
+
+#opinion .owl-carousel .owl-stage-outer {
+  margin-bottom: 40px;
 }
 
 /* FOOTER */
@@ -372,5 +395,15 @@ footer p {
 @media only screen and (max-width: 768px) {
   .get--content--border {
     border-right: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .owl-carousel .owl-stage-outer {
+    top: 20%;
+  }
+
+  .carousel--content h1 {
+    font-size: 1.8em;
   }
 }
