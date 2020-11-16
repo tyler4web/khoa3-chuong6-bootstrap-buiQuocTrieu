@@ -311,6 +311,63 @@ header {
   text-align: center;
   padding-bottom: 70px;
 }
+
+/* FOOTER */
+footer {
+  background-color: black;
+}
+
+footer h3 {
+  color: var(--primary-color);
+}
+
+footer p {
+  line-height: 36px;
+}
+
+.footer--subscribe {
+  padding: 50px 0;
+}
+
+.footer--subscribe button {
+  display: inline-block;
+  color: white;
+  background-color: var(--secondary-color);
+  border: none;
+}
+
+.footer--subscribe form {
+  border: 1px solid white;
+  display: flex;
+  flex-basis: 0 0 auto;
+}
+
+.footer--subscribe input {
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px 0 10px 20px;
+  border: none;
+}
+
+.footer--contactUs i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.footer--copyright {
+  background-color: #252525;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.footer--copyright p {
+  text-align: center;
+  color: white;
+}
 /* MEDIA QUERY */
 @media only screen and (max-width: 768px) {
   .get--content--border {
