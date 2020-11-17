@@ -363,6 +363,7 @@ footer p {
   color: white;
   background-color: var(--secondary-color);
   border: none;
+  padding: 10px 20px;
 }
 
 .footer--subscribe form {
